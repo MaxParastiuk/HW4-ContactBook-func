@@ -1,0 +1,46 @@
+.table_phone {
+	margin: 0 auto;
+	border-left: 3px solid #f79361;
+	border-right: 3px solid #f79361;
+	border-bottom: 3px solid #f79361;
+}
+
+.table_phone td,
+.table_phone th {
+	padding: 10px;
+}
+.table_phone th {
+	text-align: center;
+	font-size: 18px;
+}
+.table_phone tr:nth-child(2n) {
+	background: #e5e5e5;
+}
+.table_phone td:last-of-type {
+	text-align: center;
+}
+.table_phone button {
+	display: inline-block;
+	padding: 5px 10px;
+	background: #f79361;
+	box-shadow: 2px 2px 0 0 #a22800;
+	position: relative;
+}
+.table_phone a:hover {
+	box-shadow: none;
+	top: 2px;
+	left: 2px;
+}
+
+.contact_form {
+	margin-bottom: 40px;
+}
+
+.addAndHide-btn {
+	margin: 10px 0px 20px;
+	display: inline-block;
+	padding: 5px 5px;
+	background: #f79361;
+	box-shadow: 2px 2px 0 0 #a22800;
+	position: relative;
+}
